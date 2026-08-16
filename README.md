@@ -10,6 +10,8 @@ view and manage academic information through a command-line interface.
 The project will be developed incrementally using Git branches, commits,
 merges, and other version-control techniques.
 
+The portal demonstrates student records, courses, grades, GPA calculation, and preference management.
+
 ## Planned Features
 
 - Display student information
