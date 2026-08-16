@@ -47,5 +47,7 @@ int main() {
 
     displayGrades(grades);
 
+    cout << "Graded courses: " << countGradedCourses(grades) << '\n';
+
     return 0;
 }

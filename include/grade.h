@@ -12,5 +12,6 @@ struct Grade {
 };
 
 void displayGrades(const vector<Grade>& grades);
+int countGradedCourses(const vector<Grade>& grades);
 
 #endif

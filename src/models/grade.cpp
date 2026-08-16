@@ -11,3 +11,7 @@ void displayGrades(const vector<Grade>& grades) {
              << grade.letter << '\n';
     }
 }
+
+int countGradedCourses(const vector<Grade>& grades) {
+    return static_cast<int>(grades.size());
+}
