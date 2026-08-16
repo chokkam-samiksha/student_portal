@@ -27,3 +27,12 @@ To build and run the project, the following tools are required:
 - Git
 - GitHub account for repository access
 - VS Code or another C++ compatible editor
+
+## Build Instructions
+
+Clone the repository and navigate into the project directory.
+
+Compile the main program using a C++17-compatible compiler:
+
+```bash
+g++ -std=c++17 src/main.cpp -o student-portal
