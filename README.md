@@ -11,6 +11,7 @@ The project will be developed incrementally using Git branches, commits,
 merges, and other version-control techniques.
 
 The portal demonstrates student records, courses, grades, GPA calculation, and preference management.
+The project showcases a modular C++ student portal with separate academic management components.
 
 ## Planned Features
 
