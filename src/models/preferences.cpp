@@ -14,3 +14,8 @@ void displayPreferences(const Preferences& preferences) {
 
     cout << "Theme: " << preferences.theme << '\n';
 }
+
+bool isSupportedTheme(const string& theme) {
+    return theme == "Light" ||
+           theme == "Dark";
+}

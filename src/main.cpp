@@ -70,5 +70,7 @@ int main() {
 
     displayPreferences(preferences);
 
+    cout << "Theme supported: " << (isSupportedTheme(preferences.theme) ? "Yes" : "No") << '\n';
+
     return 0;
 }
