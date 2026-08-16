@@ -36,3 +36,20 @@ Compile the main program using a C++17-compatible compiler:
 
 ```bash
 g++ -std=c++17 src/main.cpp -o student-portal
+
+```
+
+Run the program using:
+
+.\student-portal.exe
+
+## Usage
+
+When the program starts, it displays the Student Portal welcome message
+and asks the user to enter a student name.
+
+Enter a valid student name when prompted. The application checks that the
+name is not empty and then displays a welcome message.
+
+The program currently provides the initial portal interface. Additional
+student management features will be added during development.
