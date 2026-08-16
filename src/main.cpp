@@ -5,6 +5,7 @@
 #include "../include/course.h"
 #include "../include/grade.h"
 #include "../include/gpa.h"
+#include "../include/preferences.h"
 
 using namespace std;
 
@@ -60,6 +61,14 @@ int main() {
     displayGPA(gpa);
 
     cout << "Academic standing: " << getAcademicStanding(gpa) << '\n';
+
+    Preferences preferences = {
+        true,
+        true,
+        "Light"
+    };
+
+    displayPreferences(preferences);
 
     return 0;
 }
