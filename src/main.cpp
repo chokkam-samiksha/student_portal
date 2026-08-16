@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
+#include <vector>
 #include "../include/student.h"
+#include "../include/course.h"
 
 using namespace std;
 
@@ -25,6 +27,14 @@ int main() {
     }
 
     displayStudent(student);
+
+    vector<Course> courses = {
+        {"CS101", "Programming Fundamentals", 4},
+        {"MA101", "Discrete Mathematics", 3},
+        {"DB101", "Database Systems", 4}
+    };
+
+    displayCourses(courses);
 
     return 0;
 }
