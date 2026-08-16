@@ -53,3 +53,20 @@ name is not empty and then displays a welcome message.
 
 The program currently provides the initial portal interface. Additional
 student management features will be added during development.
+
+## Project Structure
+
+The project is organized into separate directories so that source code
+and project documentation can be managed clearly.
+
+Current structure:
+
+student_portal/
+├── .gitignore
+├── README.md
+└── src/
+    └── main.cpp
+
+The `src` directory contains the C++ source code for the application.
+Additional source and header files will be added as new features are
+developed.
