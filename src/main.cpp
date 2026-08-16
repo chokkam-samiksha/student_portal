@@ -3,6 +3,7 @@
 #include <vector>
 #include "../include/student.h"
 #include "../include/course.h"
+#include "../include/grade.h"
 
 using namespace std;
 
@@ -36,8 +37,17 @@ int main() {
 
     displayCourses(courses);
 
-    cout << "Total credits: "
-     << calculateTotalCredits(courses) << '\n';
+    cout << "Total credits: " << calculateTotalCredits(courses) << '\n';
+
+    vector<Grade> grades = {
+        {"CS101", "A"},
+        {"MA101", "B+"},
+        {"DB101", "A-"}
+    };
+
+    displayGrades(grades);
+
+    cout << "Graded courses: " << countGradedCourses(grades) << '\n';
 
     return 0;
 }
