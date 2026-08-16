@@ -9,3 +9,12 @@ view and manage academic information through a command-line interface.
 
 The project will be developed incrementally using Git branches, commits,
 merges, and other version-control techniques.
+
+## Planned Features
+
+- Display student information
+- Manage enrolled courses
+- Record and display academic grades
+- Calculate the student's GPA
+- Manage student preferences
+- Provide a simple menu-driven console interface
