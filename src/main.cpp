@@ -5,6 +5,7 @@
 #include "../include/course.h"
 #include "../include/grade.h"
 #include "../include/gpa.h"
+#include "../include/preferences.h"
 
 using namespace std;
 
@@ -61,5 +62,17 @@ int main() {
 
     cout << "Academic standing: " << getAcademicStanding(gpa) << '\n';
 
+    Preferences preferences = {
+        true,
+        true,
+        "Light"
+    };
+
+    displayPreferences(preferences);
+
+    cout << "Theme supported: " << (isSupportedTheme(preferences.theme) ? "Yes" : "No") << '\n';
+
+    cout << getPreferenceSummary(preferences) << '\n';
+    
     return 0;
 }
