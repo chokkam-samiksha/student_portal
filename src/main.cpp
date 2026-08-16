@@ -36,5 +36,8 @@ int main() {
 
     displayCourses(courses);
 
+    cout << "Total credits: "
+     << calculateTotalCredits(courses) << '\n';
+
     return 0;
 }

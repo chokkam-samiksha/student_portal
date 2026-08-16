@@ -15,3 +15,13 @@ void displayCourses(const vector<Course>& courses) {
     cout << "Total enrolled courses: "
          << courses.size() << '\n';
 }
+
+int calculateTotalCredits(const vector<Course>& courses) {
+    int totalCredits = 0;
+
+    for (const Course& course : courses) {
+        totalCredits += course.credits;
+    }
+
+    return totalCredits;
+}

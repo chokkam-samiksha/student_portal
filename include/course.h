@@ -13,5 +13,6 @@ struct Course {
 };
 
 void displayCourses(const vector<Course>& courses);
+int calculateTotalCredits(const vector<Course>& courses);
 
 #endif
