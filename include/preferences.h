@@ -13,5 +13,6 @@ struct Preferences {
 
 void displayPreferences(const Preferences& preferences);
 bool isSupportedTheme(const string& theme);
+string getPreferenceSummary(const Preferences& preferences);
 
 #endif

@@ -72,5 +72,7 @@ int main() {
 
     cout << "Theme supported: " << (isSupportedTheme(preferences.theme) ? "Yes" : "No") << '\n';
 
+    cout << getPreferenceSummary(preferences) << '\n';
+    
     return 0;
 }

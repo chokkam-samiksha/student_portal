@@ -19,3 +19,13 @@ bool isSupportedTheme(const string& theme) {
     return theme == "Light" ||
            theme == "Dark";
 }
+
+string getPreferenceSummary(const Preferences& preferences) {
+    string summary = "Preferences: ";
+
+    summary += preferences.showCourses ? "courses on, " : "courses off, ";
+    summary += preferences.showGrades ? "grades on, " : "grades off, ";
+    summary += "theme=" + preferences.theme;
+
+    return summary;
+}
