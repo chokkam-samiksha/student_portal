@@ -13,5 +13,6 @@ struct GradePoint {
 
 double calculateGPA(const vector<GradePoint>& grades);
 void displayGPA(double gpa);
+string getAcademicStanding(double gpa);
 
 #endif

@@ -59,5 +59,7 @@ int main() {
     double gpa = calculateGPA(gradePoints);
     displayGPA(gpa);
 
+    cout << "Academic standing: " << getAcademicStanding(gpa) << '\n';
+
     return 0;
 }

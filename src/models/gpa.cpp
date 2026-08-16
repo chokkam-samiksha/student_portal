@@ -22,3 +22,19 @@ void displayGPA(double gpa) {
     cout << fixed << setprecision(2);
     cout << "Current GPA: " << gpa << '\n';
 }
+
+string getAcademicStanding(double gpa) {
+    if (gpa >= 3.5) {
+        return "Excellent standing";
+    }
+
+    if (gpa >= 3.0) {
+        return "Good standing";
+    }
+
+    if (gpa >= 2.0) {
+        return "Satisfactory standing";
+    }
+
+    return "Academic improvement required";
+}
