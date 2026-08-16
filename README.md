@@ -10,6 +10,8 @@ view and manage academic information through a command-line interface.
 The project will be developed incrementally using Git branches, commits,
 merges, and other version-control techniques.
 
+The project showcases a modular C++ student portal with separate academic management components.
+
 ## Planned Features
 
 - Display student information
