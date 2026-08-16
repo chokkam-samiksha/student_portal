@@ -1,20 +1,30 @@
 #include <iostream>
 #include <string>
+#include "../include/student.h"
+
+using namespace std;
 
 int main() {
-    std::string studentName;
+    Student student;
 
-    std::cout << "=== Student Portal ===\n";
-    std::cout << "Enter your name: ";
-    std::getline(std::cin, studentName);
+    cout << "=== Student Portal ===\n";
 
-    if (studentName.empty()) {
-        std::cout << "Student name cannot be empty.\n";
+    cout << "Enter your name: ";
+    getline(cin, student.name);
+
+    cout << "Enter your student ID: ";
+    getline(cin, student.studentId);
+
+    cout << "Enter your department: ";
+    getline(cin, student.department);
+
+    if (student.name.empty() || student.studentId.empty() ||
+        student.department.empty()) {
+        cout << "\nAll student details are required.\n";
         return 1;
     }
 
-    std::cout << "\nWelcome, " << studentName << "!\n";
-    std::cout << "Student portal initialized successfully.\n";
+    displayStudent(student);
 
     return 0;
 }
