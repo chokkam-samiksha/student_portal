@@ -4,6 +4,7 @@
 #include "../include/student.h"
 #include "../include/course.h"
 #include "../include/grade.h"
+#include "../include/gpa.h"
 
 using namespace std;
 
@@ -48,6 +49,15 @@ int main() {
     displayGrades(grades);
 
     cout << "Graded courses: " << countGradedCourses(grades) << '\n';
+
+    vector<GradePoint> gradePoints = {
+        {"CS101", 4.0},
+        {"MA101", 3.0},
+        {"DB101", 3.7}
+    };
+
+    double gpa = calculateGPA(gradePoints);
+    displayGPA(gpa);
 
     return 0;
 }
