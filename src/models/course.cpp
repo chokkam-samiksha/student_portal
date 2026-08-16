@@ -11,4 +11,7 @@ void displayCourses(const vector<Course>& courses) {
              << course.name << " ("
              << course.credits << " credits)\n";
     }
+
+    cout << "Total enrolled courses: "
+         << courses.size() << '\n';
 }
