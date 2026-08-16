@@ -18,3 +18,12 @@ merges, and other version-control techniques.
 - Calculate the student's GPA
 - Manage student preferences
 - Provide a simple menu-driven console interface
+
+## Requirements
+
+To build and run the project, the following tools are required:
+
+- C++ compiler supporting C++17 or later
+- Git
+- GitHub account for repository access
+- VS Code or another C++ compatible editor
