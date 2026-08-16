@@ -29,3 +29,5 @@ string getPreferenceSummary(const Preferences& preferences) {
 
     return summary;
 }
+
+// TODO: Add validation for additional student portal preference options.
